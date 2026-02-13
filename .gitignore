@@ -1,0 +1,26 @@
+# --- Ambientes Virtuais (Venv) ---
+venv/
+env/
+.env
+.venv/
+
+# --- Python Cache e Compilados ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Logs do RPA (IMPORTANTE) ---
+# Ignora a pasta raiz de logs definida no código
+meus_logs_rpa/
+logs/
+
+# Ignora arquivos de log soltos, caso sejam gerados na raiz
+*.log
+*.jsonl
+*.txt
+
+# --- IDEs e Editores (Opcional, mas recomendado) ---
+.vscode/
+.idea/
+.DS_Store

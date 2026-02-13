@@ -46,7 +46,7 @@ class RPABase:
         logger.handlers = [] # Limpa handlers anteriores para evitar duplicidade
         
         # Data para o nome do arquivo
-        today = datetime.now().strftime('%Y-%m-%d')
+        today = datetime.now().strftime('%Y-%m-%d_%H%M%S')
 
         # 1. Handler para Arquivo RAW (TXT Simples)
         txt_handler = logging.FileHandler(f"{self.bot_log_dir}/{self.bot_name}_{today}.txt", encoding='utf-8')
