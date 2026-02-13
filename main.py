@@ -1,4 +1,4 @@
-from rpa_core import RPABase, track_step
+from rpa_logger import RPABase, track_step
 import time
 
 # --- Robô 1: Robô Financeiro ---
